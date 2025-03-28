@@ -1,4 +1,4 @@
 ## Screenshots  
 
 ### Job Card  
-![Job Card](screenshots/job-listing.png)  
+![Job Card](screenshoots/job-listing.png)  
