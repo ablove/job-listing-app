@@ -12,20 +12,24 @@ Styled UI: Responsive design with Tailwind CSS.
 
 📂 Project Structure
 
-📁 job-dashboard
-│── 📂 components
-│   │── JobCard.js  # Card component for job previews
-│   │── JobDetail.js # Detailed job description component
-│── 📂 pages
-│   │── jobdashboard.js  # Main job dashboard page
-│   │── index.js  # Home page (if needed)
-│── 📂 public
+job-dashboard/
+│── components/
+│   │── JobCard.js        # Card component for job previews
+│   │── JobDetail.js      # Detailed job description component
+│
+│── pages/
+│   │── jobdashboard.js   # Main job dashboard page
+│   │── index.js         # Home page (if needed)
+│
+│── public/
 │   │── avatar1.png
 │   │── avatar2.jpeg
 │   │── avatar3.jpeg
-│── 📂 styles
-│── 📄 package.json
-│── 📄 README.md
+│
+│── styles/
+│
+│── package.json
+│── README.md
 
 🛠️ Installation & Setup
 
@@ -63,10 +67,6 @@ jobdashboard.js
 Main job listing page.
 
 Maps over job data and renders JobCard components.
-
-📜 License
-
-This project is licensed under the MIT License.
 ## Screenshots  
 
 ### Job Card  
