@@ -1,63 +1,56 @@
-📌 Job Dashboard - Next.js & Tailwind CSS
+Job Dashboard - Next.js & Tailwind CSS
 A job dashboard web application built with Next.js and Tailwind CSS to display job listings with descriptions and categories.
 
-📸 Screenshot
+##🚀 Features
+-Job Listings: Displays a list of jobs with details like title, company, location, and categories.
+-Job Details: Shows in-depth information about a selected job.
+-Styled UI: Responsive design with Tailwind CSS.
 
- job-listing.png
-
-🚀 Features
-✅ Job Listings – Displays job details including title, company, location, and categories.
-✅ Job Details – Shows in-depth information about a selected job.
-✅ Styled UI – Fully responsive design with Tailwind CSS.
-
-📂 Project Structure
-
-job-dashboard/
+##📂 Project Structure
+-job-dashboard/
 │── components/
-│   ├── JobCard.js       # Card component for job previews
-│   ├── JobDetail.js     # Detailed job description component
+│   │── JobCard.js        # Card component for job previews
+│   │── JobDetail.js      # Detailed job description component
 │
 │── pages/
-│   ├── jobdashboard.js  # Main job dashboard page
-│   ├── index.js        # Home page (if needed)
+│   │── jobdashboard.js   # Main job dashboard page
+│   │── index.js         # Home page (if needed)
 │
 │── public/
-│   ├── screenshot.png   # Project screenshot
-│   ├── avatar1.png
-│   ├── avatar2.jpeg
-│   ├── avatar3.jpeg
+│   │── avatar1.png
+│   │── avatar2.jpeg
+│   │── avatar3.jpeg
 │
 │── styles/
 │
 │── package.json
 │── README.md
-🛠️ Installation & Setup
-1️⃣ Clone the repository
 
-git clone https://github.com/your-username/job-dashboard.git
-cd job-dashboard
-2️⃣ Install dependencies
+##🛠️ Installation & Setup
+#Clone the repository:
+-git clone https://github.com/your-username/job-dashboard.git
+-cd job-dashboard
 
-yarn install  # or npm install
-3️⃣ Run the development serverbash
-Copy
-Edit
-yarn dev  # or npm run dev
-Then open http://localhost:3000 in your browser to view the app.
+## Install dependencies:
+-yarn install  # or npm install
+-Run the development server:
+-yarn dev  # or npm run dev
+-Open http://localhost:3000 in your browser to see the app.
 
-🏗️ Components
-🔹 JobCard.js
-Displays a brief preview of a job.
+##🏗️ Components
 
-Includes job title, company name, location, and categories.
+#JobCard.js
+-Displays a brief preview of a job.
+-Includes job title, company name, location, and categories.
 
-🔹 JobDetail.js
-Displays full details of a selected job.
+#JobDetail.js
+-Displays full details of a selected job.
+-This includes responsibilities, qualifications, and the application process.
 
-Includes responsibilities, qualifications, and application process.
+#jobdashboard.js
+-Main job listing page.
+-Maps over job data and renders JobCard components.
+## Screenshots  
 
-🔹 jobdashboard.js
-Main job listing page.
-
-Maps over job data and renders JobCard components.
-
+### Job Card  
+![Job Card](screenshoots/job-listing.png)  
