@@ -6,26 +6,6 @@ A job dashboard web application built with Next.js and Tailwind CSS to display j
 -Job Details: Shows in-depth information about a selected job.
 -Styled UI: Responsive design with Tailwind CSS.
 
-##📂 Project Structure
--job-dashboard/
-│── components/
-│   │── JobCard.js        # Card component for job previews
-│   │── JobDetail.js      # Detailed job description component
-│
-│── pages/
-│   │── jobdashboard.js   # Main job dashboard page
-│   │── index.js         # Home page (if needed)
-│
-│── public/
-│   │── avatar1.png
-│   │── avatar2.jpeg
-│   │── avatar3.jpeg
-│
-│── styles/
-│
-│── package.json
-│── README.md
-
 ##🛠️ Installation & Setup
 #Clone the repository:
 -git clone https://github.com/your-username/job-dashboard.git
